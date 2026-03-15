@@ -1,6 +1,3 @@
-Use **proper fenced code blocks** and **close them correctly**. Copy-paste this fixed section style:
-
-````markdown
 # HTB – Nibbles
 
 ## Machine Information
@@ -25,7 +22,7 @@ We start with an Nmap scan.
 
 ```bash
 nmap -sC -sV STMIP
-````
+```
 
 * 22 **SSH** OpenSSH 7.2p2 Ubuntu 4ubuntu2.2
 * 80 **HTTP** Apache/2.4.18
@@ -277,6 +274,3 @@ The box highlights common security issues:
 * exposed configuration files
 * unsafe file upload functionality
 * improperly secured scripts with elevated privileges
-
-```
-```
