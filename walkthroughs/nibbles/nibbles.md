@@ -1,4 +1,3 @@
-```
 # Nibbles
 
 # Enumeration
@@ -11,20 +10,20 @@ with following Nmap scan
 - 22 **SSH** OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
 - 80 **HTTP** Apache/2.4.18 (Ubuntu)
 
-![nmap scan](images/Pasted%20image%2020260315203153.png)
+![nmap scan](nmap.png)
 
 ## Web Footprint
 http://10.129.20.39 is just a blank page with "Hello world!"
 
-![web page](images/Pasted%20image%2020260315203440.png)
+![web page](images/helloworld.png)
 
 But when we look in the source code
 
-![source code](images/Pasted%20image%2020260315203546.png)
+![source code](images/sourcecode.png)
 
 /nibbleblog is our next step
 
-![nibbleblog](images/Pasted%20image%2020260315203758.png)
+![nibbleblog](images/nibbleblog.png)
 
 All links are inactive and a dead end so next is webfuzzing
 
@@ -45,4 +44,3 @@ we have some hits
     README                  [Status: 200, Size: 4628, Words: 589, Lines: 64, Duration: 74ms]
     themes                  [Status: 301, Size: 324, Words: 20, Lines: 10, Duration: 87ms]
     :: Progress: [4614/4614] :: Job [1/1] :: 443 req/sec :: Duration: [0:00:15] :: Errors: 0 ::
-```
