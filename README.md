@@ -17,7 +17,7 @@ Proof-of-concept code and exploitation techniques.
 
 ### Walkthroughs
 
-Step-by-step solutions for systems, labs, or CTF challenges.
+Step-by-step solutions for systems, labs, or CTF challenges. [EXAMPLE](https://github.com/ElidioColonnaPXL/infosec-wiki/blob/main/walkthroughs/nibbles/nibbles.md)
 
 ### Research
 
