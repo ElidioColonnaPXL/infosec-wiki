@@ -10,7 +10,7 @@ with following Nmap scan
 - 22 **SSH** OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
 - 80 **HTTP** Apache/2.4.18 (Ubuntu)
 
-![nmap scan](nmap.png)
+![nmap scan](images/nmap.png)
 
 ## Web Footprint
 http://10.129.20.39 is just a blank page with "Hello world!"
