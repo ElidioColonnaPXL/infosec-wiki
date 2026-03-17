@@ -6,7 +6,7 @@
 | **CTF:** | Qualifiers 2026 |  
 | **Difficulty** | Medium |
 | **Type** | Forensics |
-| **Vulnerability** | USB Injection |
+| **Vulnerability** | ADB injection |
 | **File** | `capture.pcapng` |
 
 ![challenge](images/challenge.png)
