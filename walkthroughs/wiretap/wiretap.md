@@ -3,7 +3,7 @@
 | Field | Value |
 |------|------|
 | **Platform** | CSCBE |  
-| **CTF:** | Qualifiers 2026 |  
+| **CTF** | Qualifiers 2026 |  
 | **Difficulty** | Medium |
 | **Type** | Forensics |
 | **Vulnerability** | ADB injection |
