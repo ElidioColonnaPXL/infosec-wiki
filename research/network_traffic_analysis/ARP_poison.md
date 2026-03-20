@@ -20,6 +20,7 @@
 In this analysis, we investigate an **ARP poisoning attack** using a provided PCAP file.  
 ARP is frequently abused because it lacks authentication, making it vulnerable to **man-in-the-middle (MITM)** and **denial-of-service (DoS)** attacks.
 
+![ARPpoison](images/arppoison.png)
 ARP traffic is broadcast-based, which makes anomalies easier to detect during packet analysis.
 
 ---
@@ -102,7 +103,7 @@ Look for:
 ---
 
 ### Indicator 2 – Duplicate IP Detection
-
+![Duplicate](images/dupplication.png)
 ```
 
 arp.duplicate-address-detected && arp.opcode == 2
@@ -184,7 +185,7 @@ Look for:
 ---
 
 # Indicators of Compromise (IOCs)
-
+![succes](images/succespoison.png)
 - Duplicate IP detection
 - Multiple MAC addresses for one IP
 - Excessive ARP replies
