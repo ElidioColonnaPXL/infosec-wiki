@@ -21,7 +21,7 @@ Step-by-step solutions for systems, labs, or CTF challenges. [EXAMPLE](https://g
 
 ### Research
 
-Notes and documentation on tools, vulnerabilities, and methodologies.
+Notes and documentation on tools, vulnerabilities, and methodologies.[EXAMPLE](https://github.com/ElidioColonnaPXL/infosec-wiki/blob/main/research/network_traffic_analysis/ARP_poison.md)
 
 ---
 
