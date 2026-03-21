@@ -31,3 +31,8 @@ Notes and documentation on tools, vulnerabilities, and methodologies.[EXAMPLE](h
 * Organize scripts and tooling
 * Record techniques and findings
 * Maintain a reusable knowledge base
+
+---
+ ## Project NexusLab
+
+![homelab](/research/network_traffic_analysis/images/homelab.jpeg)
