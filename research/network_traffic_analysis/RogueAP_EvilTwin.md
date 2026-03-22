@@ -43,7 +43,9 @@ Typical examples:
 # Evil-Twin Attack
 
 An evil-twin access point is:
+
 ![eviltwin](images/evil-twin.png)
+
 - a fake AP created by an attacker
 - not connected to the real network
 - impersonates a legitimate SSID
@@ -142,7 +144,9 @@ Malicious AP:
 - or weaker / no encryption
 
 This mismatch is a **key indicator**.
+
 ![missinginfo](images/missinginfo.png)
+
 ---
 
 ## Step 5 – Compare Additional Fields
