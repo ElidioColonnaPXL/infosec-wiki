@@ -1,5 +1,4 @@
-![infosec-wiki](investigations/network_traffic_analysis/images/infosecwikilogo.png)
-
+![infosec-wiki](investigations/network_traffic_analysis/images/infosecwikilogo2.png)
 This repository documents hands-on work across multiple domains including **network forensics, log analysis, web application behavior, and incident investigation**.
 The goal is to build a structured understanding of how attacks occur, how they can be identified, and how they can be mitigated in real environments.
 
