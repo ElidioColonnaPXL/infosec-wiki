@@ -1,4 +1,4 @@
-![infosec-wiki](investigations/network_traffic_analysis/images/infosecwiki.png)
+![infosec-wiki](investigations/network_traffic_analysis/images/infosecwiki-removebg-preview.png)
 
 # Infosec Wiki
 
