@@ -30,6 +30,8 @@ Attackers manipulate how packets are split and reassembled to bypass detection m
 
 The IP layer allows large packets to be split into smaller fragments.
 
+![ippacket](images/frag1.jpg)
+
 ## Key Fields
 
 - **Total Length** → full packet size  
@@ -176,6 +178,8 @@ This is a strong indicator of:
 - Nmap fragmentation scan
 - firewall/IDS evasion attempt
 
+![nmap](images/frag2.png)
+
 ---
 
 # Indicators of Compromise (IOCs)
@@ -186,6 +190,8 @@ This is a strong indicator of:
 - SYN scan behavior combined with fragmentation
 - RST responses from target host
 - Abnormal IP fragment offsets
+
+![rst](images/frag3.png)
 
 ---
 
