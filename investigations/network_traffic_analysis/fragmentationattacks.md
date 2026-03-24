@@ -225,8 +225,7 @@ Key findings:
 
 ---
 
-# Key Takeaways (Student)
-
+#  What I learned?
 - Always check IP layer anomalies
 - Fragmentation + scanning = major red flag
 - Look for one host targeting many ports
