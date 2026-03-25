@@ -1,4 +1,3 @@
-````markdown
 # Remote Code Execution
 
 **Platform:** TryHackMe  
@@ -172,6 +171,7 @@ Create a directory called `yourgroupnumber2025.pxl` in `/tmp` and prove it was c
 ```bash
 127.0.0.1; mkdir /tmp/yourgroupnumber2025.pxl; ls -l /tmp
 ```
+> use your actual group I forgot lol
 
 ### Explanation
 
@@ -391,7 +391,4 @@ In short, **command injection is one of the most dangerous classes of web vulner
 127.0.0.1; ls -1 /var/www/html | wc -l
 ```
 
-```
 
-A small correction before you paste it into your repo: replace `yourgroupnumber2025.pxl` with your actual group number, and replace the placeholder count in the `/var/www/html` section with the exact result from your screenshot.
-```
