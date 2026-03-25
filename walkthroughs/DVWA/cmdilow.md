@@ -6,7 +6,7 @@
 **Difficulty:** Easy  
 **Type:** Web / Command Injection / RCE  
 
-![task overview](images/task-overview.png)
+![task overview](images/task.png)
 
 ---
 
