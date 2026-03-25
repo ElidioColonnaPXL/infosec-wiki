@@ -4,7 +4,7 @@
 |------|------| 
 | **Platform:** | TryHackMe |  
 | **Room:** | DVWA | 
-| **Task** | Task 5 | 
+| **Task:** | Task 5 | 
 |**Difficulty:** | Easy | 
 | **Type:** | Web / Command Injection / RCE |
 
