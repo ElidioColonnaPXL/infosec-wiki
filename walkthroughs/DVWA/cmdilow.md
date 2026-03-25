@@ -1,10 +1,10 @@
 # Remote Code Execution
 
-**Platform:** TryHackMe  
-**Room:** DVWA  
-**Task:** Task 5  
-**Difficulty:** Easy  
-**Type:** Web / Command Injection / RCE  
+| **Platform:** | TryHackMe |  
+| **Room:** | DVWA | 
+| **Task** | Task 5 | 
+|**Difficulty:** | Easy | 
+| **Type:** | Web / Command Injection / RCE |
 
 ![task overview](images/task.png)
 
