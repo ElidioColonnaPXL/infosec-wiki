@@ -93,10 +93,10 @@ Supporting material used throughout investigations:
 * Authentication mechanisms
 * Common attack patterns
 * System and log behavior
+* HackTheBox Academy (not direct)
 
 ---
 
 ## Status
 
-This is an ongoing project with no defined endpoint.
-Content is continuously added, refined, and reorganized as new scenarios and insights are explored.
+This is an ongoing project with no defined endpoint. Tips are always welcome ;D
