@@ -1,7 +1,7 @@
 
-## Cyber Kill Chain, MITRE ATT&CK, and Pyramid of Pain
-
-Before discussing incident handling, it is important to understand how attacks typically unfold and how defenders analyze adversary behavior. Three core concepts help with this:
+# Cyber Kill Chain
+It is important to understand how attacks typically unfold and how defenders analyze adversary behavior. 
+Three core concepts help with this:
 
 - **Cyber Kill Chain** → explains the broad stages of an attack
 - **MITRE ATT&CK** → describes attacker behavior in more detail
@@ -12,6 +12,8 @@ Together, these models help analysts understand **what the attacker is doing**, 
 ---
 
 ## 1. Cyber Kill Chain
+
+![cyberkillchain](images/Cyber_kill_chain.png)
 
 The **Cyber Kill Chain** is a model that describes the lifecycle of a cyberattack from the attacker’s initial research to the final objective. It helps incident responders determine:
 
@@ -28,6 +30,8 @@ The kill chain consists of **seven stages**.
 The **Reconnaissance** stage is the starting point of the attack. The attacker selects a target and gathers as much information as possible about the organization.
 
 This can happen in two ways:
+
+![rec](images/ir_recon.png)
 
 #### Passive reconnaissance
 The attacker gathers information without directly interacting with the target systems.
@@ -216,6 +220,8 @@ The earlier the attacker is detected, the lower the potential impact on the envi
 
 ## 4. MITRE ATT&CK Framework
 
+![framework](images/mitreintro.png)
+
 The **MITRE ATT&CK Framework** is another model used to understand adversary behavior. While the Cyber Kill Chain gives a **high-level attack lifecycle**, MITRE ATT&CK provides a **more detailed and granular view** of what attackers actually do during an intrusion.
 
 It is widely used by:
@@ -328,6 +334,8 @@ Both frameworks are often used together during investigations.
 ---
 
 ## 6. Pyramid of Pain
+
+![pyramidofpain](images/piramid.png)
 
 The **Pyramid of Pain** shows how difficult it is for an attacker to change something once defenders detect and block it.
 
