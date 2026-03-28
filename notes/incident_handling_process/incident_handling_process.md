@@ -2,7 +2,7 @@
 
 The **Incident Handling Process** defines how an organization prepares for, detects, investigates, contains, and recovers from security incidents.
 
-It is important to note that this process is **not the same as the Cyber Kill Chain**. The kill chain describes how an attacker operates, while the incident handling process describes **how defenders respond**.
+It is important to note that this process is **not the same as the [Cyber Kill Chain](https://github.com/ElidioColonnaPXL/infosec-wiki/blob/main/notes/incident_handling_process/cyber_kill_chain.md)**. The kill chain describes how an attacker operates, while the incident handling process describes **how defenders respond**.
 
 According to **NIST**, the process has **four main stages**:
 
