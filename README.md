@@ -1,7 +1,6 @@
 ![infosec-wiki](investigations/network_traffic_analysis/images/infosecwikilogo2.png)
 
-
-# Infosec Wiki
+---
 
 A blue-team focused knowledge base for investigations, detections, and lab-driven security analysis.
 
