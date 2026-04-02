@@ -323,19 +323,3 @@ This supports key SOC tasks such as:
 
 ---
 
-## Summary
-
-The **Elastic Stack** is a platform for collecting, storing, searching, and visualizing data.
-
-Its main components are:
-
-* **Beats** for data collection
-* **Logstash** for processing and forwarding
-* **Elasticsearch** for storage and search
-* **Kibana** for analysis and visualization
-
-In security operations, the Elastic Stack can function as a **SIEM**, helping analysts detect and investigate threats across many data sources.
-
-A strong understanding of **Kibana**, **KQL**, and **ECS** is especially important for SOC analysts, since these are used daily for searching, correlation, and investigation.
-
----
