@@ -1,5 +1,7 @@
 # Kerberoasting
 
+![diagram](images/Kerberoasting_diagram.png)
+
 ## Description
 
 In Active Directory, a [Service Principal Name (SPN)](https://learn.microsoft.com/en-us/windows/win32/ad/service-principal-names) is a unique service instance identifier. `Kerberos` uses SPNs for authentication to associate a service instance with a service logon account.
