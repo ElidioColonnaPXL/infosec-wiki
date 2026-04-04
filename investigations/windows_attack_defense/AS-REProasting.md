@@ -1,5 +1,6 @@
-
 # AS-REP Roasting
+
+![diagram](images/ASrepdiagram.jpg)
 
 ## Description
 
