@@ -1,5 +1,7 @@
 # Kerberos Constrained Delegation
 
+![kcd-diagram](images/kcd-auth.png)
+
 ## Description
 
 `Kerberos Delegation` allows an application or service to access resources hosted on another server on behalf of a user.
