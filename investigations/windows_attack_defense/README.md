@@ -1,6 +1,6 @@
 # Windows Attack & Defense
 
-This section contains a structured collection of **Windows / Active Directory attack techniques** along with defensive considerations.
+**Windows / Active Directory attack techniques** along with defensive analysis
 
 Each topic includes:
 - Description of the attack
