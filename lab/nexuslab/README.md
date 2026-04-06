@@ -1,4 +1,4 @@
-# Homelab
+# NexusLab (homelab)
 
 ![homelab](images/homelab.jpeg)
 
