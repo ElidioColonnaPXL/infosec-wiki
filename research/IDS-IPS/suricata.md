@@ -1,5 +1,7 @@
 # Suricata
 
+![suricata](images/Suricataexample.png)
+
 ## Overview
 
 [Suricata](https://suricata.io/) is an open-source network security engine developed by the [Open Information Security Foundation (OISF)](https://oisf.net/). It can be used for **IDS**, **IPS**, **NSM**, and **offline PCAP analysis**. Suricata inspects traffic using **rules**, then logs, alerts, or blocks depending on the selected mode and rule action. ([docs.suricata.io][1])
@@ -66,6 +68,8 @@ Contains event types such as:
 * drops
 
 This is the most useful log for SIEM ingestion and analysis. ([docs.suricata.io][1])
+
+![scheme](images/suricata.png)
 
 ### `fast.log`
 
