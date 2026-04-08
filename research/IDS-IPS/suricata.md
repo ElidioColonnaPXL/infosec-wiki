@@ -418,8 +418,6 @@ Validates the Suricata configuration.
 * [jq Manual](https://jqlang.org/manual/)
 * [tcpreplay](https://tcpreplay.appneta.com/)
 
-If you want, I can do the same format next for **pfSense** or **OPNsense** so the whole firewall section stays consistent.
-
 [1]: https://docs.suricata.io/?utm_source=chatgpt.com "Suricata User Guide — Suricata 8.0.4 documentation"
 [2]: https://docs.suricata.io/en/latest/rules/index.html?utm_source=chatgpt.com "8. Suricata Rules — Suricata 9.0.0-dev documentation"
 [3]: https://tcpreplay.appneta.com/?utm_source=chatgpt.com "Tcpreplay - Pcap editing and replaying utilities"
