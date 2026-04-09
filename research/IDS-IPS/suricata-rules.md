@@ -559,7 +559,7 @@ cat fast.log
 
 Send the next section and I’ll keep the same format.
 
-[1]: https://docs.suricata.io/en/latest/rules/intro.html?utm_source=chatgpt.com "8.1. Rules Format — Suricata 9.0.0-dev documentation"
+[1]: https://docs.suricata.io/en/latest/rules/intro.html "8.1. Rules Format — Suricata 9.0.0-dev documentation"
 [2]: https://docs.suricata.io/en/latest/rules/index.html?utm_source=chatgpt.com "8. Suricata Rules — Suricata 9.0.0-dev documentation"
 [3]: https://docs.suricata.io/en/latest/rules/flow-keywords.html?utm_source=chatgpt.com "8.13. Flow Keywords — Suricata 9.0.0-dev documentation"
 [4]: https://docs.suricata.io/en/suricata-6.0.20/rules/payload-keywords.html?utm_source=chatgpt.com "7.7. Payload Keywords — Suricata 6.0.20 documentation"
@@ -574,5 +574,5 @@ Send the next section and I’ll keep the same format.
 [13]: https://github.com/BishopFox/sliver/wiki/HTTP%28S%29-C2/be65c9de83bcb779bb66cb77742d215af8be1d1e?utm_source=chatgpt.com "HTTP(S) C2 · BishopFox/sliver Wiki · GitHub"
 [14]: https://github.com/BishopFox/sliver/blob/master/server/configs/http-c2.go "sliver/server/configs/http-c2.go at master · BishopFox/sliver · GitHub"
 [15]: https://docs.suricata.io/en/suricata-7.0.11/rules/payload-keywords.html?utm_source=chatgpt.com "8.7. Payload Keywords — Suricata 7.0.11 documentation"
-[16]: https://sslbl.abuse.ch/blacklist/?utm_source=chatgpt.com "SSLBL | Blacklist - Abuse.ch"
-[17]: https://docs.suricata.io/en/latest/rules/ja-keywords.html?utm_source=chatgpt.com "8.21. JA3/JA4 Keywords — Suricata 9.0.0-dev documentation"
+[16]: https://sslbl.abuse.ch/blacklist/ "SSLBL | Blacklist - Abuse.ch"
+[17]: https://docs.suricata.io/en/latest/rules/ja-keywords.html "8.21. JA3/JA4 Keywords — Suricata 9.0.0-dev documentation"
