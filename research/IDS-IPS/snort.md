@@ -400,8 +400,6 @@ Snort’s configuration and alert logging docs emphasize the modular design, Lua
 * Snort alert logging. ([docs.snort.org][6])
 * Snort installation and LibDAQ. ([docs.snort.org][3])
 
-Send the next firewall topic and I’ll keep the same format.
-
 [1]: https://docs.snort.org/start/configuration "Configuration - Snort 3 Rule Writing Guide"
 [2]: https://docs.snort.org/start/inspection "Reading Traffic - Snort 3 Rule Writing Guide"
 [3]: https://docs.snort.org/start/installation "Installing Snort - Snort 3 Rule Writing Guide"
