@@ -537,30 +537,6 @@ cat fast.log
 
 ---
 
-# Practical Notes
-
-## Best practices
-
-* prefer **specific buffers** over full-payload regex
-* use `flow` to reduce noise
-* use `content` before `pcre` whenever possible
-* use `detection_filter` for repeated weak signals
-* combine **signature**, **behavior**, and **encrypted-traffic** approaches
-
-These are all consistent with Suricata’s rule model and keyword guidance. ([Suricata Documentation][2])
-
-## Common pitfalls
-
-* relying on one generic string
-* writing a rule that is only a broad `pcre`
-* ignoring traffic direction
-* using analytics-only rules without validation
-* assuming TLS means “no detection possible”
-
-Suricata supports TLS metadata inspection and JA3 matching specifically to address encrypted traffic visibility limits. ([Suricata Documentation][9])
-
----
-
 # Sources
 
 ## Core Suricata documentation
