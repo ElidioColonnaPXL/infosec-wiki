@@ -1,6 +1,6 @@
 # Snort
 
-![logo](images/thumb-snort.jpg)
+![logo](images/snortgui.png)
 
 ## Overview
 
@@ -405,7 +405,7 @@ Snort’s configuration and alert logging docs emphasize the modular design, Lua
 [1]: https://docs.snort.org/start/configuration "Configuration - Snort 3 Rule Writing Guide"
 [2]: https://docs.snort.org/start/inspection "Reading Traffic - Snort 3 Rule Writing Guide"
 [3]: https://docs.snort.org/start/installation "Installing Snort - Snort 3 Rule Writing Guide"
-[4]: https://docs.snort.org/rules/?utm_source=chatgpt.com "The Basics - Snort 3 Rule Writing Guide"
+[4]: https://docs.snort.org/rules/ "The Basics - Snort 3 Rule Writing Guide"
 [5]: https://docs.snort.org/start/rules "Rules - Snort 3 Rule Writing Guide"
 [6]: https://docs.snort.org/start/alert_logging "Alert Logging - Snort 3 Rule Writing Guide"
 [7]: https://snort.org/downloads/snortplus/snort_manual.pdf "Snort 3 User Manual"
