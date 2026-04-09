@@ -1,5 +1,7 @@
 # Snort
 
+![logo](images/thumb-snort.jpg)
+
 ## Overview
 
 Snort is an open-source **IDS/IPS** that can also be used for **packet logging** and **traffic inspection**. In Snort 3, configuration is done in **Lua**, and rules determine what traffic should generate alerts or actions. ([docs.snort.org][1])
