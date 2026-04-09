@@ -557,22 +557,24 @@ cat fast.log
 * abuse.ch SSLBL / Dridex certificate tracking. ([SSL Blacklist][16])
 * JA3 original reference. ([Salesforce Engineering Blog][11])
 
-Send the next section and I’ll keep the same format.
 
 [1]: https://docs.suricata.io/en/latest/rules/intro.html "8.1. Rules Format — Suricata 9.0.0-dev documentation"
-[2]: https://docs.suricata.io/en/latest/rules/index.html?utm_source=chatgpt.com "8. Suricata Rules — Suricata 9.0.0-dev documentation"
-[3]: https://docs.suricata.io/en/latest/rules/flow-keywords.html?utm_source=chatgpt.com "8.13. Flow Keywords — Suricata 9.0.0-dev documentation"
-[4]: https://docs.suricata.io/en/suricata-6.0.20/rules/payload-keywords.html?utm_source=chatgpt.com "7.7. Payload Keywords — Suricata 6.0.20 documentation"
-[5]: https://docs.suricata.io/en/latest/rules/http-keywords.html?utm_source=chatgpt.com "8.15. HTTP Keywords — Suricata 9.0.0-dev documentation"
-[6]: https://docs.suricata.io/en/latest/rules/payload-keywords.html?utm_source=chatgpt.com "8.9. Payload Keywords — Suricata 9.0.0-dev documentation"
-[7]: https://docs.suricata.io/en/suricata-8.0.0/rules/differences-from-snort.html?utm_source=chatgpt.com "8.50. Differences From Snort — Suricata 8.0.0 documentation"
-[8]: https://docs.suricata.io/en/latest/rules/thresholding.html?utm_source=chatgpt.com "8.46. Thresholding Keywords - Suricata Docs"
-[9]: https://docs.suricata.io/en/latest/rules/tls-keywords.html?utm_source=chatgpt.com "8.19. SSL/TLS Keywords — Suricata 9.0.0-dev documentation"
+[2]: https://docs.suricata.io/en/latest/rules/index.html "8. Suricata Rules — Suricata 9.0.0-dev documentation"
+[3]: https://docs.suricata.io/en/latest/rules/flow-keywords.html "8.13. Flow Keywords — Suricata 9.0.0-dev documentation"
+[4]: https://docs.suricata.io/en/suricata-6.0.20/rules/payload-keywords.html "7.7. Payload Keywords — Suricata 6.0.20 documentation"
+[5]: https://docs.suricata.io/en/latest/rules/http-keywords.html "8.15. HTTP Keywords — Suricata 9.0.0-dev documentation"
+[6]: https://docs.suricata.io/en/latest/rules/payload-keywords.html "8.9. Payload Keywords — Suricata 9.0.0-dev documentation"
+[7]: https://docs.suricata.io/en/suricata-8.0.0/rules/differences-from-snort.html "8.50. Differences From Snort — Suricata 8.0.0 documentation"
+[8]: https://docs.suricata.io/en/latest/rules/thresholding.html "8.46. Thresholding Keywords - Suricata Docs"
+[9]: https://docs.suricata.io/en/latest/rules/tls-keywords.html "8.19. SSL/TLS Keywords — Suricata 9.0.0-dev documentation"
 [10]: https://github.com/EmpireProject/Empire/blob/master/data/agent/agent.ps1 "Empire/data/agent/agent.ps1 at master · EmpireProject/Empire · GitHub"
-[11]: https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41/?utm_source=chatgpt.com "Open Sourcing JA3"
+[11]: https://engineering.salesforce.com/open-sourcing-ja3-92c9e53c3c41/ "Open Sourcing JA3"
 [12]: https://github.com/cobbr/Covenant/blob/master/Covenant/Data/Profiles/DefaultHttpProfile.yaml "Covenant/Covenant/Data/Profiles/DefaultHttpProfile.yaml at master · cobbr/Covenant · GitHub"
-[13]: https://github.com/BishopFox/sliver/wiki/HTTP%28S%29-C2/be65c9de83bcb779bb66cb77742d215af8be1d1e?utm_source=chatgpt.com "HTTP(S) C2 · BishopFox/sliver Wiki · GitHub"
+[13]: https://github.com/BishopFox/sliver/wiki/HTTP%28S%29-C2/be65c9de83bcb779bb66cb77742d215af8be1d1e "HTTP(S) C2 · BishopFox/sliver Wiki · GitHub"
 [14]: https://github.com/BishopFox/sliver/blob/master/server/configs/http-c2.go "sliver/server/configs/http-c2.go at master · BishopFox/sliver · GitHub"
-[15]: https://docs.suricata.io/en/suricata-7.0.11/rules/payload-keywords.html?utm_source=chatgpt.com "8.7. Payload Keywords — Suricata 7.0.11 documentation"
+[15]: https://docs.suricata.io/en/suricata-7.0.11/rules/payload-keywords.html "8.7. Payload Keywords — Suricata 7.0.11 documentation"
 [16]: https://sslbl.abuse.ch/blacklist/ "SSLBL | Blacklist - Abuse.ch"
 [17]: https://docs.suricata.io/en/latest/rules/ja-keywords.html "8.21. JA3/JA4 Keywords — Suricata 9.0.0-dev documentation"
+
+
+
