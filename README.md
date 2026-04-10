@@ -28,27 +28,26 @@ Hands-on cybersecurity repository focused on detection, investigation, and pract
 
 ## Structure
 
-### Detection
+### [Detection](./detections/IDS-IPS/suricata/suricata.md)
 
 Work related to identifying malicious activity.
 
 Includes rule and query development, IDS/IPS concepts, and detection logic.
 
-[Detection](./detection-engineering/)
 
 ---
 
-### Investigations
+### [Investigations](./investigations/SOC/phishing/phishing.md)
 
 Analysis of security scenarios and suspicious activity.
 
 Focus on traffic analysis, phishing, malware-related cases, and SOC simulations.
 
-[Investigations](./investigations/)
+
 
 ---
 
-### [Labs](./lab/nexuslab)
+### [Labs](./lab/nexuslab/README.md)
 
 Practical environment and supporting infrastructure.
 
@@ -58,23 +57,23 @@ Includes homelab (NexusLab) and related components.
 
 ---
 
-### Walkthroughs
+### [Walkthroughs](./walkthroughs/wiretap/wiretap.md)
 
 Educational and offensive-oriented material.
 
 Includes CTF writeups and teaching content.
 
-[Walkthroughs](./walkthroughs/)
+
 
 ---
 
-### Notes
+### [Notes](./notes/incident_handling_process/incident_handling_process.md)
 
 Reference material and learning notes.
 
 Includes content from platforms such as HTB and THM.
 
-[Notes](./notes/)
+
 
 ---
 
