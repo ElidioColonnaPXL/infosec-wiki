@@ -1,6 +1,8 @@
 # NexusLab (homelab)
 
-![homelab](images/homelab.jpeg)
+<p align="center">
+  <img src="./images/infosecwikilogo2.png" width="250"/>
+</p>
 
 ## Overview
 
