@@ -5,7 +5,7 @@
 <h1 align="center">Infosec Wiki</h1>
 
 <p align="center">
-  SOC Analyst Portfolio • Detection • Investigations • Homelab
+  SOC Analysis • Detection • Investigations • labs
 </p>
 
 ---
@@ -48,13 +48,13 @@ Focus on traffic analysis, phishing, malware-related cases, and SOC simulations.
 
 ---
 
-### Labs
+### [Labs](./lab/nexuslab)
 
 Practical environment and supporting infrastructure.
 
 Includes homelab (NexusLab) and related components.
 
-[Labs](./labs/)
+
 
 ---
 
