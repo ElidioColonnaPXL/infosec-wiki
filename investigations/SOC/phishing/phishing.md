@@ -17,8 +17,6 @@ A total of **5 alerts** were generated in the dashboard:
 
 - **4 phishing alerts**
 - **1 firewall alert**
-- **4 medium severity alerts**
-- **1 high severity alert**
 
 Because the firewall alert had the highest severity, it was reviewed first.
 
