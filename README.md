@@ -1,4 +1,4 @@
-![infosec-wiki](research/network_traffic_analysis/images/infosecwikilogo2.png)
+![infosec-wiki](lab/nexuslab/images/infosecwikilogo2.png)
 
 ---
 
