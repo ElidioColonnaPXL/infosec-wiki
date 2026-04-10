@@ -2,8 +2,6 @@
   <img src="lab/nexuslab/images/infosecwikilogo2.png" width="250"/>
 </p>
 
-<h1 align="center">Infosec Wiki</h1>
-
 <p align="center">
   SOC Analysis • Detection • Investigations • labs
 </p>
