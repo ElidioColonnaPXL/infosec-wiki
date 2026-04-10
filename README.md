@@ -30,50 +30,66 @@ infosec-wiki
 
 ---
 
+Understood—same content, but structured as **lists for readability**.
+
+---
+
+## Refined **Structure** section (list-based)
+
+```md
 ## Structure
 
 ### Detection  
 [View](./detections/IDS-IPS/suricata/suricata.md)
 
-Development of detection logic and rules.
-
-Covers IDS/IPS concepts, rule creation, and query-based detection.
+- Focus on detection engineering and identification of malicious activity  
+- Rule and query development  
+- IDS/IPS configurations (Suricata, Snort)  
+- Use cases for tools such as Zeek and Sigma  
+- Detection logic, tuning, and SOC-oriented approaches  
 
 ---
 
 ### Investigations  
 [View](./investigations/SOC/phishing/phishing.md)
 
-Analysis of security scenarios and suspicious activity.
-
-Focused on traffic analysis, phishing, malware, and SOC-oriented cases.
+- Analysis of security incidents and suspicious behavior  
+- Network traffic analysis (PCAP)  
+- Phishing investigations  
+- Malware-related scenarios  
+- SOC simulations and case-based analysis  
+- Identification of indicators of compromise and event reconstruction  
 
 ---
 
 ### Labs  
 [View](./lab/nexuslab/README.md)
 
-Practical environment and supporting infrastructure.
-
-Includes homelab (NexusLab) and related implementations.
+- Practical lab environment for hands-on work  
+- NexusLab homelab setup  
+- Infrastructure and supporting components  
+- Monitoring and logging experiments  
+- Scenario simulation and validation of techniques  
 
 ---
 
 ### Walkthroughs  
 [View](./walkthroughs/wiretap/wiretap.md)
 
-Educational and offensive-oriented material.
-
-Used for teaching, exercises, and red team fundamentals.
+- Step-by-step walkthroughs for learning and teaching  
+- CTF challenges and exercises  
+- Red team fundamentals  
+- Focus on understanding and explaining techniques  
 
 ---
 
 ### Notes  
 [View](./notes/incident_handling_process/incident_handling_process.md)
 
-Reference material and supporting theory.
-
-Includes platform-based learning and core concepts.
+- Reference material and structured notes  
+- Content from platforms such as HTB and THM  
+- Summaries of concepts and methodologies  
+- Supporting theory for practical work  
 
 ---
 
