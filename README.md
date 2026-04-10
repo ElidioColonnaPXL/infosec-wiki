@@ -10,18 +10,14 @@
 
 ---
 
-## About
+# Scope
 
 Hands-on cybersecurity repository focused on detection, investigation, and practical SOC-related work.
-
----
-
-## Scope
 
 ```
 infosec-wiki
 │
-├── detection-engineering
+├── detection
 ├── investigations
 ├── labs
 ├── walkthroughs
@@ -30,21 +26,17 @@ infosec-wiki
 
 ---
 
+## [Detection](./detections/IDS-IPS/suricata/suricata.md)
 
-
-### Detection  
-[View](./detections/IDS-IPS/suricata/suricata.md)
-
-- Focus on detection engineering and identification of malicious activity  
-- Rule and query development  
-- IDS/IPS configurations (Suricata, Snort)  
-- Use cases for tools such as Zeek and Sigma  
-- Detection logic, tuning, and SOC-oriented approaches  
+- Focus on **detection engineering** and identification of malicious activity  
+- **Rule** and **query** development  
+- **IDS/IPS** configurations (Suricata, Snort)  
+- Use cases for tools such as **Zeek** and **Sigma**  
+- **Detection logic**, **tuning**, and SOC-oriented approaches  
 
 ---
 
-### Investigations  
-[View](./investigations/SOC/phishing/phishing.md)
+## [Investigations](./investigations/SOC/phishing/phishing.md)
 
 - Analysis of security incidents and suspicious behavior  
 - Network traffic analysis (PCAP)  
@@ -55,37 +47,34 @@ infosec-wiki
 
 ---
 
-### Labs  
-[View](./lab/nexuslab/README.md)
+## [Labs](./lab/nexuslab/README.md)
 
 - Practical lab environment for hands-on work  
-- NexusLab homelab setup  
+- NexusLab **homelab** setup  
 - Infrastructure and supporting components  
-- Monitoring and logging experiments  
-- Scenario simulation and validation of techniques  
+- **Monitoring** and **logging** experiments  
+- Scenario **simulation** and validation of techniques  
 
 ---
 
-### Walkthroughs  
-[View](./walkthroughs/wiretap/wiretap.md)
+## [Walktroughs](./walkthroughs/wiretap/wiretap.md)
 
-- Step-by-step walkthroughs for learning and teaching  
+- Step-by-step walkthroughs for **learning** and **teaching**  
 - CTF challenges and exercises  
 - Red team fundamentals  
-- Focus on understanding and explaining techniques  
+- Focus on **understanding** and **explaining** techniques  
 
 ---
 
-### Notes  
-[View](./notes/incident_handling_process/incident_handling_process.md)
+## [Notes](./notes/incident_handling_process/incident_handling_process.md)
 
 - Reference material and structured notes  
-- Content from platforms such as HTB and THM  
+- Content from training platforms such as HTB,THM and COMPTIA
 - Summaries of concepts and methodologies  
 - Supporting theory for practical work  
 
 ---
 
-## Status
+### Status
 
-Actively maintained.
+> Actively maintained. Tips or corrections are always welcome.
