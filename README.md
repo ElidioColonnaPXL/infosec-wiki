@@ -30,14 +30,7 @@ infosec-wiki
 
 ---
 
-Understood—same content, but structured as **lists for readability**.
 
----
-
-## Refined **Structure** section (list-based)
-
-```md
-## Structure
 
 ### Detection  
 [View](./detections/IDS-IPS/suricata/suricata.md)
