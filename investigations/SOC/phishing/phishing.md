@@ -247,29 +247,16 @@ This correlation strengthens the assessment that the activity was malicious and 
 
 ---
 
-# Final Conclusion
-
-This SOC Simulator phishing scenario demonstrates the importance of validating alerts through context rather than relying only on the rule name.
-
-## Final Verdict
-
-- **1 False Positive**
-  - `8814`
-
-- **3 True Positives**
-  - `8815`
-  - `8816`
-  - `8817`
-
 ## Key Lessons Learned
 
+- phishing is one of the most common alerts in a SOC
 - Not every email containing an external link is malicious
 - Sender reputation, domain validation, and email context are critical
 - URL shorteners are a major phishing red flag
 - Typosquatted domains are strong indicators of impersonation
 - Alert correlation across email and firewall telemetry improves confidence in classification
 
-> [! TIP] to clarify: last remaining alert was a fault in the dectection of the SIEM
+> to clarify: last remaining alert was a fault in the dectection of the SIEM
 
 ---
 
