@@ -1,8 +1,12 @@
-# NexusLab (homelab)
+
 
 <p align="center">
   <img src="./images/homelab.jpeg" width="250"/>
 </p>
+
+<h1 align="center">NexusLab</h1>
+
+<h2 align="center">homelab</h2>
 
 ## Overview
 
