@@ -18,62 +18,62 @@ Hands-on cybersecurity repository focused on detection, investigation, and pract
 
 ## Scope
 
-- Detection engineering
-- Security investigations
-- Homelab and infrastructure
-- Walkthroughs and teaching material
-- Notes and reference content
+```
+infosec-wiki
+│
+├── detection-engineering
+├── investigations
+├── labs
+├── walkthroughs
+└── notes
+```
 
 ---
 
 ## Structure
 
-### [Detection](./detections/IDS-IPS/suricata/suricata.md)
+### Detection  
+[View](./detections/IDS-IPS/suricata/suricata.md)
 
-Work related to identifying malicious activity.
+Development of detection logic and rules.
 
-Includes rule and query development, IDS/IPS concepts, and detection logic.
-
+Covers IDS/IPS concepts, rule creation, and query-based detection.
 
 ---
 
-### [Investigations](./investigations/SOC/phishing/phishing.md)
+### Investigations  
+[View](./investigations/SOC/phishing/phishing.md)
 
 Analysis of security scenarios and suspicious activity.
 
-Focus on traffic analysis, phishing, malware-related cases, and SOC simulations.
-
-
+Focused on traffic analysis, phishing, malware, and SOC-oriented cases.
 
 ---
 
-### [Labs](./lab/nexuslab/README.md)
+### Labs  
+[View](./lab/nexuslab/README.md)
 
 Practical environment and supporting infrastructure.
 
-Includes homelab (NexusLab) and related components.
-
-
+Includes homelab (NexusLab) and related implementations.
 
 ---
 
-### [Walkthroughs](./walkthroughs/wiretap/wiretap.md)
+### Walkthroughs  
+[View](./walkthroughs/wiretap/wiretap.md)
 
 Educational and offensive-oriented material.
 
-Includes CTF writeups and teaching content.
-
-
+Used for teaching, exercises, and red team fundamentals.
 
 ---
 
-### [Notes](./notes/incident_handling_process/incident_handling_process.md)
+### Notes  
+[View](./notes/incident_handling_process/incident_handling_process.md)
 
-Reference material and learning notes.
+Reference material and supporting theory.
 
-Includes content from platforms such as HTB and THM.
-
-
+Includes platform-based learning and core concepts.
 
 ---
 
