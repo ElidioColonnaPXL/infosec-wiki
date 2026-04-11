@@ -18,8 +18,9 @@ infosec-wiki
 ├── detection
 ├── investigations
 ├── labs
-├── walkthroughs
-└── notes
+├── toolbox
+├── notes
+└── walktroughs
 ```
 
 ---
@@ -53,14 +54,21 @@ infosec-wiki
 - **Monitoring** and **logging** experiments  
 - Scenario **simulation** and validation of techniques  
 
----
+## [Toolbox](./toolbox/README.md)
+Tool table categorized in:
+- 🔴 Red  
+- 🔵 Blue
+- 🟣 Purple
 
-## [Walktroughs](./walkthroughs/wiretap/wiretap.md)
+Purposes like:
+- Networking
+- Detection
+- DFIR
+- Active Directory
+- Web
+- Utilities
 
-- Step-by-step walkthroughs for **learning** and **teaching**  
-- CTF challenges and exercises  
-- Red team fundamentals  
-- Focus on **understanding** and **explaining** techniques  
+
 
 ---
 
@@ -72,6 +80,16 @@ infosec-wiki
 - Supporting theory for practical work  
 
 ---
+
+## [Walktroughs](./walkthroughs/wiretap/wiretap.md)
+
+- Step-by-step walkthroughs for **learning** and **teaching**  
+- CTF challenges and exercises  
+- Red team fundamentals  
+- Focus on **understanding** and **explaining** techniques  
+
+---
+
 
 ### Status
 
