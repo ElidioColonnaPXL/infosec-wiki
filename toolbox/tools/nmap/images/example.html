@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--generated with nmap.xsl - version 0.9c by Benjamin Erb - http://www.benjamin-erb.de/nmap_xsl.php --><style type="text/css">
+/* stylesheet print */
+@media print
+{
+#menu {
+display:none;
+}
+
+body {
+font-family: Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+font-size: 13pt;
+font-weight:bold;
+margin:4pt 0pt 0pt 0pt;
+padding:0;
+}
+
+h2 {
+font-size: 12pt;
+font-weight:bold;
+margin:3pt 0pt 0pt 0pt;
+padding:0;
+}
+
+h3, a:link, a:visited {
+font-size: 9pt;
+font-weight:bold;
+margin:1pt 0pt 0pt 20pt;
+padding:0;
+text-decoration: none;
+color: #000000;
+}
+
+p,ul {
+font-size: 9pt;
+margin:1pt 0pt 8pt 40pt;
+padding:0;
+text-align:left;
+}
+
+li {
+font-size: 9pt;
+margin:0;
+padding:0;
+text-align:left;
+}
+
+table {
+margin:1pt 0pt 8pt 40pt;
+border:0px;
+width:90%
+}
+
+td {
+border:0px;
+border-top:1px solid black;
+font-size: 9pt;
+}
+
+.head td {
+border:0px;
+font-weight:bold;
+font-size: 9pt;
+}
+.noprint { display: none; }
+}
+
+/* stylesheet screen */
+@media screen
+{
+body {
+font-family: Verdana, Helvetica, sans-serif;
+margin: 0px;
+background-color: #FFFFFF;
+color: #000000;
+text-align: center;
+}
+
+#container {
+text-align:left;
+margin: 10px auto;
+width: 90%;
+}
+
+h1 {
+font-family: Verdana, Helvetica, sans-serif;
+font-weight:bold;
+font-size: 14pt;
+color: #FFFFFF;
+background-color:#2A0D45;
+margin:10px 0px 0px 0px;
+padding:5px 4px 5px 4px;
+width: 100%;
+border:1px solid black;
+text-align: left;
+}
+
+h2 {
+font-family: Verdana, Helvetica, sans-serif;
+font-weight:bold;
+font-size: 11pt;
+color: #000000;
+margin:30px 0px 0px 0px;
+padding:4px;
+width: 100%;
+background-color:#F0F8FF;
+text-align: left;
+}
+
+h2.green {
+color: #000000;
+background-color:#CCFFCC;
+border-color:#006400;
+}
+
+h2.red {
+color: #000000;
+background-color:#FFCCCC;
+border-color:#8B0000;
+}
+
+h3 {
+font-family: Verdana, Helvetica, sans-serif;
+font-weight:bold;
+font-size: 10pt;
+color:#000000;
+background-color: #FFFFFF;
+width: 75%;
+text-align: left;
+}
+
+p {
+font-family: Verdana, Helvetica, sans-serif;
+font-size: 8pt;
+color:#000000;
+background-color: #FFFFFF;
+width: 75%;
+text-align: left;
+}
+
+p i {
+font-family: Verdana, Helvetica, sans-serif;
+font-size: 8pt;
+color:#000000;
+background-color: #CCCCCC;
+}
+
+ul {
+font-family: Verdana, Helvetica, sans-serif;
+font-size: 8pt;
+color:#000000;
+background-color: #FFFFFF;
+width: 75%;
+text-align: left;
+}
+
+a {
+font-family: Verdana, Helvetica, sans-serif;
+text-decoration: none;
+font-size: 8pt;
+color:#000000;
+font-weight:bold;
+background-color: #FFFFFF;
+color: #000000;
+}
+
+li a {
+font-family: Verdana, Helvetica, sans-serif;
+text-decoration: none;
+font-size: 10pt;
+color:#000000;
+font-weight:bold;
+background-color: #FFFFFF;
+color: #000000;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a.up {
+color:#006400;
+}
+
+table {
+width: 80%;
+border:0px;
+color: #000000;
+background-color: #000000;
+margin:10px;
+}
+
+tr {
+vertical-align:top;
+font-family: Verdana, Helvetica, sans-serif;
+font-size: 8pt;
+color:#000000;
+background-color: #FFFFFF;
+}
+
+tr.head {
+background-color: #E1E1E1;
+color: #000000;
+font-weight:bold;
+}
+
+tr.open {
+background-color: #CCFFCC;
+color: #000000;
+}
+
+tr.script {
+background-color: #EFFFF7;
+color: #000000;
+}
+
+tr.filtered {
+background-color: #F2F2F2;
+color: #000000;
+}
+
+tr.closed {
+background-color: #F2F2F2;
+color: #000000;
+}
+
+td {
+padding:2px;
+}
+
+#menu li {
+display         : inline;
+margin          : 0;
+/*margin-right    : 10px;*/
+padding         : 0;
+list-style-type : none;
+}
+
+#menubox {
+position: fixed;
+bottom: 0px;
+right: 0px;
+width: 120px;
+}
+
+
+
+/* This section handle's IE's refusal to honor the fixed CSS attribute */
+
+* html div#menubox {
+position: absolute;
+top:expression(eval(
+document.compatMode && document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight)
+: document.body.scrollTop +(document.body.clientHeight-this.clientHeight));
+}
+/* This fixes the jerky effect when scrolling in IE*/
+* html,* html body {
+background: #fff url(nosuchfile) fixed;
+}
+
+
+
+.up {
+color: #000000;
+background-color:#CCFFCC;
+}
+
+.down {
+color:#626262;
+background-color: #F2F2F2;
+}
+
+.print_only { display: none; }
+.hidden { display: none; }
+.unhidden { display: block; }
+
+}
+</style>
+<title>Nmap Scan Report - Scanned at Fri Apr 17 17:58:38 2026</title>
+<script type="text/javascript">
+
+
+
+function toggle(divID) {
+var item = document.getElementById(divID);
+if (item) {
+item.className=(item.className=='hidden')?'unhidden':'hidden';
+}
+}
+
+function togglePorts(tableID,portState) {
+var table = document.getElementById(tableID);
+var tbody = table.getElementsByTagName("tbody")[0];
+var rows = tbody.getElementsByTagName("tr");
+for (var i=0; i < rows.length; i++) {
+var value = rows[i].getElementsByTagName("td")[2].firstChild.nodeValue;
+if (value == portState) {
+rows[i].style.display = (rows[i].style.display == 'none')?'':'none';
+}
+}
+}
+
+function toggleAll(portState) {
+var allTables = document.getElementsByTagName("table");
+for (var c=0; c < allTables.length; c++) {
+if (allTables[c].id != "") {
+togglePorts(allTables[c].id, portState)
+}
+}
+}
+
+function init (){
+toggleAll('closed');
+toggleAll('filtered');
+}
+
+window.onload = init;
+
+
+
+</script>
+</head>
+<body>
+<a name="top"></a><div id="container">
+<h1>Nmap Scan Report - Scanned at Fri Apr 17 17:58:38 2026</h1>
+<ul id="menu">
+<li><a href="#scansummary">Scan Summary</a></li>
+<li> | <a href="#host_10_81_82_136" class="up">10.81.82.136</a>
+</li>
+</ul>
+<a name="scansummary"></a><hr class="print_only">
+<h2>Scan Summary</h2>
+<p>
+Nmap 7.95 was initiated at Fri Apr 17 17:58:38 2026 with these arguments:<br><i>nmap -sC -sV -p 22,80,139,445,4938,6150,6349,7602,8632 -oA services 10.81.82.136</i><br></p>
+<p>
+Verbosity: 0; Debug level 0</p>
+<p>Nmap done at Fri Apr 17 17:58:57 2026; 1 IP address (1 host up) scanned in 18.85 seconds</p>
+<hr class="print_only">
+<a name="host_10_81_82_136"></a><h2 class="up">10.81.82.136<span class="print_only">(online)</span>
+</h2>
+<div id="hostblock_10.81.82.136" class="unhidden">
+<h3>Address</h3>
+<ul><li>10.81.82.136
+(ipv4)
+</li></ul>
+
+
+<h3>Ports</h3>
+<table id="porttable_10.81.82.136" cellspacing="1">
+<tr class="head">
+<td colspan="2">Port</td>
+<td>State
+<a href="javascript:togglePorts('porttable_10.81.82.136','closed');"><span class="noprint"><small> (toggle closed [0] </small></span></a><a href="javascript:togglePorts('porttable_10.81.82.136','filtered');"><span class="noprint"><small> | filtered [0])</small></span></a>
+</td>
+<td>Service</td>
+<td>Reason</td>
+<td>Product</td>
+<td>Version</td>
+<td>Extra info</td>
+</tr>
+<tr class="open">
+<td>22</td>
+<td>tcp</td>
+<td>open</td>
+<td>ssh </td>
+<td>syn-ack</td>
+<td>OpenSSH </td>
+<td>8.2p1 Ubuntu 4ubuntu0.5 </td>
+<td>Ubuntu Linux; protocol 2.0 </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>ssh-hostkey </td>
+<td colspan="6"><pre>
+3072 bd:72:56:b5:d4:02:1b:3b:33:eb:0d:5f:0c:84:aa:d8 (RSA)
+256 20:a1:e6:34:26:e9:24:f8:7e:44:80:c1:f9:41:e4:f1 (ECDSA)
+256 9f:3f:7e:ba:a3:96:8d:7f:86:4c:da:94:4f:84:1b:3a (ED25519) </pre></td>
+</tr>
+<tr class="open">
+<td>80</td>
+<td>tcp</td>
+<td>open</td>
+<td>http </td>
+<td>syn-ack</td>
+<td>nginx </td>
+<td>1.21.6 </td>
+<td> </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-title </td>
+<td colspan="6"><pre>PXL-Digital Security Lab </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-server-header </td>
+<td colspan="6"><pre>nginx/1.21.6 </pre></td>
+</tr>
+<tr class="open">
+<td>139</td>
+<td>tcp</td>
+<td>open</td>
+<td>netbios-ssn </td>
+<td>syn-ack</td>
+<td>Samba smbd </td>
+<td>4 </td>
+<td> </td>
+</tr>
+<tr class="open">
+<td>445</td>
+<td>tcp</td>
+<td>open</td>
+<td>netbios-ssn </td>
+<td>syn-ack</td>
+<td>Samba smbd </td>
+<td>4 </td>
+<td> </td>
+</tr>
+<tr class="open">
+<td>4938</td>
+<td>tcp</td>
+<td>open</td>
+<td>mysql </td>
+<td>syn-ack</td>
+<td>MySQL </td>
+<td>8.0.28 </td>
+<td> </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>ssl-date </td>
+<td colspan="6"><pre>TLS randomness does not represent time </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>ssl-cert </td>
+<td colspan="6"><pre>Subject: commonName=MySQL_Server_8.0.28_Auto_Generated_Server_Certificate
+Not valid before: 2026-04-17T15:33:37
+Not valid after:  2036-04-14T15:33:37 </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>mysql-info </td>
+<td colspan="6"><pre>
+Protocol: 10
+Version: 8.0.28
+Thread ID: 25
+Capabilities flags: 65535
+Some Capabilities: SupportsLoadDataLocal, Support41Auth, LongColumnFlag, DontAllowDatabaseTableColumn, SupportsTransactions, ConnectWithDatabase, LongPassword, InteractiveClient, IgnoreSigpipes, FoundRows, Speaks41ProtocolNew, SwitchToSSLAfterHandshake, Speaks41ProtocolOld, SupportsCompression, ODBCClient, IgnoreSpaceBeforeParenthesis, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+Status: Autocommit
+Salt: )\x0Cas^\x14TEqC}n5\x01aGB\x01\x19R
+Auth Plugin Name: caching_sha2_password </pre></td>
+</tr>
+<tr class="open">
+<td>6150</td>
+<td>tcp</td>
+<td>open</td>
+<td>http </td>
+<td>syn-ack</td>
+<td>Node.js Express framework </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-cors </td>
+<td colspan="6"><pre>HEAD GET POST PUT DELETE PATCH </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-title </td>
+<td colspan="6"><pre>SeclabTemp </pre></td>
+</tr>
+<tr class="open">
+<td>6349</td>
+<td>tcp</td>
+<td>open</td>
+<td>unknown </td>
+<td>syn-ack</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>fingerprint-strings </td>
+<td colspan="6"><pre>
+DNSVersionBindReqTCP, RPCCheck:
+HTTP/1.1 400 Bad Request
+Connection: close
+GetRequest:
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Fri, 17 Apr 2026 15:33:30 GMT
+ETag: W/"7c3-19d9c1368ae"
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1987
+Vary: Accept-Encoding
+Date: Fri, 17 Apr 2026 15:58:49 GMT
+Connection: close
+&lt;!--
+Copyright (c) 2014-2022 Bjoern Kimminich &amp; the OWASP Juice Shop contributors.
+SPDX-License-Identifier: MIT
+--&gt;&lt;!DOCTYPE html&gt;&lt;html lang="en"&gt;&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;OWASP Juice Shop&lt;/title&gt;
+&lt;meta name="description" content="Probably the most modern and sophisticated insecure web application"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;link id="favicon" rel="icon" type="image/x-icon" href="assets/public/favicon_js.ico
+HTTPOptions, RTSPRequest:
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,HEAD,PUT,PATCH,POST,DELETE
+Vary: Access-Control-Request-Headers
+Content-Length: 0
+Date: Fri, 17 Apr 2026 15:58:49 GMT
+Connection: close </pre></td>
+</tr>
+<tr class="open">
+<td>7602</td>
+<td>tcp</td>
+<td>open</td>
+<td>http </td>
+<td>syn-ack</td>
+<td>nginx </td>
+<td>1.21.6 </td>
+<td> </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-server-header </td>
+<td colspan="6"><pre>nginx/1.21.6 </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-title </td>
+<td colspan="6"><pre>Site doesn't have a title (text/html). </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-robots.txt </td>
+<td colspan="6"><pre>1 disallowed entry
+admin.html </pre></td>
+</tr>
+<tr class="open">
+<td>8632</td>
+<td>tcp</td>
+<td>open</td>
+<td>http </td>
+<td>syn-ack</td>
+<td>Apache httpd </td>
+<td>2.4.52 </td>
+<td>(Debian) </td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-title </td>
+<td colspan="6"><pre>PXL intranet </pre></td>
+</tr>
+<tr class="script">
+<td></td>
+<td>http-server-header </td>
+<td colspan="6"><pre>Apache/2.4.52 (Debian) </pre></td>
+</tr>
+</table>
+<h3>Host Script Output</h3>
+<table>
+<tr class="head">
+<td>Script Name</td>
+<td>Output</td>
+</tr>
+<tr class="script">
+<td>smb2-security-mode </td>
+<td><pre>
+3:1:1:
+Message signing enabled but not required </pre></td>
+</tr>
+<tr class="script">
+<td>smb2-time </td>
+<td><pre>
+date: 2026-04-17T15:58:52
+start_date: N/A </pre></td>
+</tr>
+</table>
+<br><a href="javascript:toggle('metrics_10.81.82.136');">
+Misc Metrics <span class="noprint"><small> (click to expand)</small></span></a><div id="metrics_10.81.82.136" class="hidden"><table cellspacing="1">
+<tr class="head">
+<td>Metric</td>
+<td>Value</td>
+</tr>
+<tr>
+<td>Ping Results</td>
+<td>syn-ack</td>
+</tr>
+</table></div>
+</div>
+</div>
+<div id="menubox" class="noprint">
+<a href="#top"><small>Go to top</small></a><br><a href="javascript:toggleAll('closed');"><small>Toggle Closed Ports</small></a><br><a href="javascript:toggleAll('filtered');"><small>Toggle Filtered Ports</small></a>
+</div>
+</body>
+</html>
