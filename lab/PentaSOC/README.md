@@ -28,6 +28,8 @@ The lab is also designed to stay lightweight, structured, and easy to expand ove
 
 ---
 
+![diagram](images/PentaSOCdiagram.png)
+
 ## Objectives
 
 | Area | Purpose |
@@ -38,7 +40,7 @@ The lab is also designed to stay lightweight, structured, and easy to expand ove
 | Virtualization / Services | Host security tooling and supporting services |
 | Portfolio Projects | Build documented detections, investigations, and write-ups |
 
-![diagram](images/PentaSOCdiagram.png)
+
 ---
 
 ## Hardware
