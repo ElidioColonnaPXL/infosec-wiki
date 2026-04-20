@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">PentaSOC</h1>
-<p align="center"><strong>SOC • Monitoring • Detection</strong></p>
+<p align="center"><strong>SIEM • Monitoring • Detection Engineering • Digital Forensics</strong></p>
 
 <p align="center">
   Raspberry Pi-based blue team homelab focused on monitoring, detection engineering,
