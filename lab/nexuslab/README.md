@@ -1,10 +1,10 @@
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td align="center">
-      <img src="./images/PentaSOCtransparent.png" alt="PentaSOC logo" width="320">
+    <td align="center" width="50%">
+      <img src="./images/PentaSOCtransparent.png" alt="PentaSOC logo" width="100%">
     </td>
-    <td align="center">
-      <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="320">
+    <td align="center" width="50%">
+      <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="100%">
     </td>
   </tr>
 </table>
