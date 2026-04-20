@@ -1,13 +1,7 @@
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="100%">
-    </td>
-    <td align="center" width="50%">
-      <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="100%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="49%" />
+  <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="49%" />
+</p>
 
 <h1 align="center">PentaSOC</h1>
 <p align="center"><strong>SOC • Monitoring • Detection</strong></p>
@@ -16,7 +10,6 @@
   Raspberry Pi-based blue team homelab focused on monitoring, detection engineering,
   traffic visibility, and practical security operations.
 </p>
-
 ---
 
 ## Overview
