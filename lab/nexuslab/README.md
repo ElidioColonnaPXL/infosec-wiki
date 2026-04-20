@@ -1,11 +1,25 @@
-<h1 align="center">NexusLab</h1>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./images/PentaSOCtransparent.png" alt="PentaSOC logo" width="320">
+    </td>
+    <td align="center">
+      <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="320">
+    </td>
+  </tr>
+</table>
+
+<h1 align="center">PentaSOC</h1>
+<p align="center"><strong>SOC • Monitoring • Detection</strong></p>
 
 <p align="center">
-  <img src="./images/homelab.jpeg" width="500"/>
+  Raspberry Pi-based blue team homelab focused on monitoring, detection engineering,
+  traffic visibility, and practical security operations.
 </p>
 
+---
 
-<h2 align="center">homelab</h2>
+## Overview
 
 ## Overview
 
