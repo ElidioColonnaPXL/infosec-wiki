@@ -46,7 +46,7 @@ infosec-wiki
 
 ---
 
-## [Labs](./lab/nexuslab/README.md)
+## [Labs](./lab/PentaSOC/README.md)
 
 - Practical lab environment for hands-on work  
 - NexusLab **homelab** setup  
