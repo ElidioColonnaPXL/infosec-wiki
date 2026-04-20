@@ -1,7 +1,7 @@
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="./images/PentaSOCtransparent.png" alt="PentaSOC logo" width="100%">
+      <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="100%">
     </td>
     <td align="center" width="50%">
       <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="100%">
