@@ -11,7 +11,6 @@
   traffic visibility, and practical security operations.
 </p>
 
-## Overview
 
 ## Overview
 
@@ -43,7 +42,7 @@ The lab is also designed to stay lightweight, structured, and easy to expand ove
 
 ## Hardware
 
-| Device | Specs | Planned Role |
+| Device | Specs | Role |
 |--------|-------|--------------|
 | Raspberry Pi 5 | 16 GB RAM, 512 GB SSD | Core security node / SIEM |
 | Raspberry Pi 5 | 8 GB RAM, 256 GB SSD | Network sensor |
@@ -61,7 +60,7 @@ The lab is also designed to stay lightweight, structured, and easy to expand ove
 |------|----|--------------|----------|
 | Pi 5 - 16 GB | Ubuntu Server | Central security stack | Wazuh / log analysis / management services |
 | Pi 5 - 8 GB | Ubuntu Server | Network visibility | Suricata |
-| Pi 5 - 8 GB | Ubuntu Server or Raspberry Pi OS | Monitoring and display | Prometheus, Node Exporter, Grafana |
+| Pi 5 - 8 GB | Ubuntu Server | Monitoring and display | Prometheus, Node Exporter, Grafana |
 | Pi 5 - 4 GB | Raspberry Pi OS Lite | Storage | NAS, backups, PCAP and log archive |
 | Pi 4 - 2 GB | Raspberry Pi OS Lite | Wireless lab access | AP services |
 
