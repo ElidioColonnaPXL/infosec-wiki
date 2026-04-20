@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="49%" />
-  <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="49%" />
+  <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="52%" />
+  <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="46%" />
 </p>
 
 <h1 align="center">PentaSOC</h1>
@@ -10,7 +10,6 @@
   Raspberry Pi-based blue team homelab focused on monitoring, detection engineering,
   traffic visibility, and practical security operations.
 </p>
----
 
 ## Overview
 
