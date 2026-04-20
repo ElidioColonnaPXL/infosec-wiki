@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="lab/nexuslab/images/infosecwikilogo2.png" width="250"/>
+  <img src="lab/PentaSOC/images/infosecwikilogo2.png" width="250"/>
 </p>
 
 <p align="center">
