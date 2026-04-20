@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="52%" />
-  <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="46%" />
+  <img src="./images/PentaSOCv2.png" alt="PentaSOC logo" width="56%" />
+  <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="42%" />
 </p>
 
 <h1 align="center">PentaSOC</h1>
