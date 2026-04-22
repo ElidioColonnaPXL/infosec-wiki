@@ -11,6 +11,7 @@
   traffic visibility, and practical security operations.
 </p>
 
+![diagram](images/PentaSOCdiagram.png)
 
 ## Overview
 
@@ -28,7 +29,7 @@ The lab is also designed to stay lightweight, structured, and easy to expand ove
 
 ---
 
-![diagram](images/PentaSOCdiagram.png)
+
 
 ## Objectives
 
