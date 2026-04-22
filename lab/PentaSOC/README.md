@@ -3,6 +3,8 @@
   <img src="./images/homelab.jpeg" alt="PentaSOC homelab" width="40%" />
 </p>
 
+![diagram](images/PentaSOCdiagram.png)
+
 <h1 align="center">PentaSOC</h1>
 <p align="center"><strong>SIEM • Monitoring • Detection Engineering • Digital Forensics</strong></p>
 
@@ -10,8 +12,6 @@
   Raspberry Pi-based blue team homelab focused on monitoring, detection engineering,
   traffic visibility, and practical security operations.
 </p>
-
-![diagram](images/PentaSOCdiagram.png)
 
 ## Overview
 
