@@ -381,7 +381,7 @@ Use this to identify brute-force sources.
 
 ---
 
-# Key Takeaways
+# Conclusion
 
 * `Endpoints` are common initial access points.
 * `Servers` hold valuable data and are major targets.
@@ -391,10 +391,6 @@ Use this to identify brute-force sources.
 * `Network logs` explain communication between systems.
 * `Port scanning`, `brute-force`, `lateral movement`, `C2`, and `exfiltration` all create recognizable patterns.
 * Good SOC analysis depends on correlation between multiple log sources.
-
----
-
-# Summary
 
 Network security starts with understanding the environment.
 
