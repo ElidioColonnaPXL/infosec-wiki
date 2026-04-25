@@ -35,7 +35,7 @@ From a security perspective, every component is a possible:
 
 # Network Components
 
-## Small Enterprise Network
+## Small SOHO network
 
 ![network components](images/PentaSOCdiagram.png)
 
