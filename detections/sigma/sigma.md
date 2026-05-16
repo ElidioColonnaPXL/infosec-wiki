@@ -1,0 +1,1 @@
+![sigma](images/sigma_intro.png)
