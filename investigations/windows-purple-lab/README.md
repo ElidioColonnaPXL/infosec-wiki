@@ -1,5 +1,5 @@
 # Windows purple lab
-![logo](images/windows-purple-lab.png)
+![logo](images/windowspurple.png)
 **Windows / Active Directory attack techniques** along with defensive analysis
 
 Each topic includes:
