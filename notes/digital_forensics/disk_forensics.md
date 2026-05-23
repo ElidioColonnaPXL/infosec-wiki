@@ -533,6 +533,8 @@ These hives are useful for investigating persistence, users, services, and syste
 
 ### EPROCESS
 
+![EPROCESS](images/dfir_mem_dcom1.png)
+
 `EPROCESS` is a Windows kernel structure that represents a process.
 
 Each process has an `EPROCESS` block in kernel memory.
@@ -561,6 +563,8 @@ Windows uses these links to enumerate active processes.
 ### DKOM
 
 DKOM stands for Direct Kernel Object Manipulation.
+
+![DKOM](images/dfir_mem_dcom.png)
 
 Rootkits can use DKOM to modify kernel structures directly.
 
