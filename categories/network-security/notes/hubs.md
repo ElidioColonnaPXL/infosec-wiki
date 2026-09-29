@@ -1,0 +1,3 @@
+# Hubs
+
+A `hub` is a basic (and now antiquated) networking device. It connects multiple devices in a network segment and broadcasts incoming data to all connected ports, regardless of the destination. Operating at the physical layer (Layer 1) of the OSI model, hubs are simpler than switches and do not manage traffic intelligently. This indiscriminate data broadcasting can lead to network inefficiencies and collisions, making hubs less suitable for modern networks. For example, in a small home network setup from earlier times, a hub might connect a few computers, but today, switches are preferred due to their better performance and efficiency.

@@ -1,0 +1,3 @@
+# Switches
+
+The `switch` is another integral component, with its primary job being to connect multiple devices within the same network, typically a Local Area Network (LAN). Operating at the data link layer (Layer 2) of the OSI model, switches use MAC addresses to forward data only to the intended recipient. By managing data traffic between connected devices, switches reduce network congestion and improve overall performance. They enable devices like computers, printers, and servers to communicate directly with each other within the network. For instance, in a corporate office, switches connect employees' computers, allowing for quick file sharing and access to shared resources like printers and servers.

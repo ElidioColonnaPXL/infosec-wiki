@@ -1,96 +1,27 @@
-<p align="center">
-  <img src="lab/PentaSOC/images/infosecwikilogo2.png" width="250"/>
-</p>
+# Information Security Wiki
 
-<p align="center">
-  SOC Analysis • Detection • Investigations • labs
-</p>
+A topic-first, GitHub-friendly knowledge base of reusable information-security references.
+This edition contains provider-neutral reference material and synthetic examples.
 
----
+## Browse by topic
 
-# Scope
+| Topic | Notes | Description |
+|---|---:|---|
+| [IDS, IPS, and Detection Engineering](categories/ids-ips-detection-engineering/README.md) | 12 | Network and endpoint detection, signatures, telemetry, and portable detection rules. |
+| [Malware Analysis](categories/malware-analysis/README.md) | 4 | Static and behavioral analysis, reverse-engineering concepts, and malware triage. |
+| [Digital Forensics and Incident Response](categories/dfir/README.md) | 4 | Evidence handling, forensic artifacts, triage, investigation, and incident response. |
+| [SIEM and SOC Operations](categories/siem-soc/README.md) | 13 | Security monitoring, log analysis, threat hunting, intelligence, and SOC workflows. |
+| [Network Security](categories/network-security/README.md) | 37 | Networking, protocols, packet analysis, segmentation, and defensive network controls. |
+| [Windows and Active Directory](categories/windows-active-directory/README.md) | 30 | Windows internals, administration, eventing, authentication, and Active Directory security. |
+| [Web and Application Security](categories/web-application-security/README.md) | 6 | Web protocols, application testing, databases, platforms, and defensive application concepts. |
+| [Offensive Security](categories/offensive-security/README.md) | 9 | Authorized security testing, enumeration, exploitation concepts, and assessment tooling. |
+| [Fundamentals](categories/fundamentals/README.md) | 14 | Operating systems, programming, cryptography, security principles, and workflow references. |
+| [Cloud Security](categories/cloud-security/README.md) | 3 | Cloud, virtualization, shared responsibility, and cloud-focused security references. |
+| [Artificial Intelligence](categories/artificial-intelligence/README.md) | 19 | Machine learning, neural networks, generative AI, and security-relevant AI concepts. |
 
-Hands-on cybersecurity repository focused on detection, investigation, and practical SOC-related work.
+## More indexes
 
-```
-infosec-wiki
-│
-├── detection
-├── investigations
-├── labs
-├── toolbox
-├── notes
-└── walktroughs
-```
-
----
-
-## [Detection](./detections/IDS-IPS/suricata/suricata.md)
-
-- Focus on **detection engineering** and identification of malicious activity  
-- **Rule** and **query** development  
-- **IDS/IPS** configurations (Suricata, Snort)  
-- Use cases for tools such as **Zeek** and **Sigma**  
-- **Detection logic**, **tuning**, and SOC-oriented approaches  
-
----
-
-## [Investigations](./investigations/SOC/phishing/phishing.md)
-
-- Analysis of security incidents and suspicious behavior  
-- Network traffic analysis (PCAP)  
-- Phishing investigations  
-- Malware-related scenarios  
-- SOC simulations and case-based analysis  
-- Identification of indicators of compromise and event reconstruction  
-
----
-
-## [Labs](./lab/PentaSOC/README.md)
-
-- Practical lab environment for hands-on work  
-- NexusLab **homelab** setup  
-- Infrastructure and supporting components  
-- **Monitoring** and **logging** experiments  
-- Scenario **simulation** and validation of techniques  
-
-## [Toolbox](./toolbox/README.md)
-Tool table categorized in:
-- 🔴 Red  
-- 🔵 Blue
-- 🟣 Purple
-
-Purposes like:
-- Networking
-- Detection
-- DFIR
-- Active Directory
-- Web
-- Utilities
-
-
-
----
-
-## [Notes](./notes/incident_handling_process/incident_handling_process.md)
-
-- Reference material and structured notes  
-- Content from training platforms such as HTB,THM and COMPTIA
-- Summaries of concepts and methodologies  
-- Supporting theory for practical work  
-
----
-
-## [Walktroughs](./walkthroughs/wiretap/wiretap.md)
-
-- Step-by-step walkthroughs for **learning** and **teaching**  
-- CTF challenges and exercises  
-- Red team fundamentals  
-- Focus on **understanding** and **explaining** techniques  
-
----
-
-
-### Status
-
-> Actively maintained. Tips or corrections are always welcome.
+- [Alphabetical note index](INDEX.md)
+- [Reusable rules and scripts](resources/README.md)
+- [Publication audit](publication-audit.json)
+- [Merge ledger](merge-ledger.csv)
