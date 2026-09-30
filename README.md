@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/infosecwiki.png" alt="Infosec Wiki logo" width="500">
+  <img src="assets/readme/infosecreadmelogo.png" alt="Infosec Wiki logo" width="500">
 </p>
 
 <h1 align="center">Infosec Wiki</h1>
