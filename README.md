@@ -20,7 +20,7 @@
 ## Explore the knowledge graph
 
 <p align="center">
-  <img src="assets/readme/obsidian-knowledge-map.png" alt="Obsidian graph showing connections between Infosec Wiki notes and tags" width="100%">
+  <img src="assets/readme/infosectopicexample.png" alt="Obsidian graph showing connections between Infosec Wiki notes and tags" width="100%">
 </p>
 
 <p align="center"><sub>A snapshot from the companion Obsidian vault, showing how notes, tools, concepts and tags connect.</sub></p>
