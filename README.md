@@ -5,8 +5,8 @@
 <h1 align="center">Infosec Wiki</h1>
 
 <p align="center">
-  <strong>A topic-first information-security knowledge base.</strong><br>
-  Practical, provider-neutral references for defenders, researchers and authorized security testers.
+  <strong>The holy bible of information security.</strong><br>
+  Practical, provider-neutral references for defenders, researchers and students.
 </p>
 
 <p align="center">
